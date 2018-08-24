@@ -1,4 +1,15 @@
-<name>wangkun</name>
-<ip>10.12.13.14</ip>
-<prot>22</port>
-<password>Changeme_123</password>
+<?xml version="1.0" encoding="utf-8"?>
+<config type="xml" date = "20180824">
+    <property num = "1">
+        <name>wangkun</name>
+        <ip>10.12.13.14</ip>
+        <port>22</port>
+        <password>Changeme_123</password>
+    </property>
+    <property num = "2">
+        <name>wangkun2</name>
+        <ip>10.12.13.15</ip>s
+        <port>23</port>s
+        <password>Changeme_124</password>
+    </property>
+</config>
