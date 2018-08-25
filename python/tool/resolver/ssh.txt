@@ -1,4 +1,12 @@
-name = wangkun
-ip = 10.11.12.13
-port = 22
-password = Changeme_123
+name1 = wangkun
+ip1 = 10.11.12.13
+port1 = 22
+password1 = Changeme_123
+name2 = wangkun
+ip2 = 10.11.12.13
+port2 = 22
+password2 = Changeme_123
+name3 = wangkun
+ip3 = 10.11.12.13
+port3 = 22
+password3 = Changeme_123

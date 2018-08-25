@@ -56,6 +56,24 @@
 #     print(data)
 #     print(type(data))
 '''--------------------------------------------------------------------------------------------------------------------------------'''
-#print("")
+#print("打印字典")
+dic1 = {'name ': ' wangkun', 'ip ': ' 10.11.12.13', 'port ': ' 22', 'password ': ' Changeme_123'}
+# for k,v in dic1.items() :
+#     print("k = %s , v = %s" % (k , v))
+#
+# for k in dic1 :
+#     print(k,"=",dic1[k])
+#
+# print(dic1.keys())
+# print(dic1.values())
+k = dic1.keys()
+print(type(list(k)))
+for i in k :
+    print(i)
+print(list(k)[2:])
+#把字典里每一项转成元祖
+# for li in dic1.items() :
+#     print(li)
+
 '''--------------------------------------------------------------------------------------------------------------------------------'''
 #print("创建文件和文件夹")
