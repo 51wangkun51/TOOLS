@@ -90,7 +90,7 @@ DATABASES = {
 26、
 27、
 28、启动应用
-    启数据库net start mysql
+    启数据库net start mysql  （以管理员权限运行cmd）
     启服务python manage.py sunserver
     登录http://127.0.0.1:8000/
 29、
