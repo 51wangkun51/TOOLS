@@ -24,6 +24,8 @@ class GradesAdmin(admin.ModelAdmin):
         ("num",{"fields":['ggirlnum','gboynum']}),
         ("base",{"fields":['gname','gdate','isDelete']}),
     ]#给属性分组  fields与fieldsets不能同时使用
+    class Meta :
+        db_table ="gride"
 @admin.register(Students)
 class StudentsAdmin(admin.ModelAdmin):
     def gender(self):
@@ -43,4 +45,10 @@ class StudentsAdmin(admin.ModelAdmin):
 # admin.site.register(Grades,GradesAdmin)
 # admin.site.register(Students,StudentsAdmin)
 #可以用装饰器来代替以上两句@admin.register(Students)
+    class Meta :
+        db_table = "Stendents"
+        #这只数据库中的表名
+        ordering = ['id']
+        #默认的排序列,'id',将序‘-id'
+
 
